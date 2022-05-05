@@ -1,0 +1,101 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+nav {
+  background-color: #8C24DF;
+}
+nav a {
+  text-transform: uppercase;
+}
+nav .nav-link {
+  color: white;
+}
+nav .navbar-brand {
+  text-shadow: white 5px 0 25px;
+}
+nav .navbar-collapse {
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+nav ul {
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.hello {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 700px;
+}
+.hello .hello-txt-block {
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+.hello .hello-txt-block a img {
+  width: 40px;
+  margin: 0 6px;
+  -webkit-box-shadow: #333;
+          box-shadow: #333;
+}
+.hello .avatar {
+  width: 250px;
+  border-radius: 90%;
+  border-right: 10px solid #9b46e163;
+  margin-right: 20px;
+}
+.hello .hi {
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+.hello h1 {
+  font-size: 2.5rem;
+  margin: 20px 0;
+  letter-spacing: 2px;
+}
+.hello h1 span {
+  color: #8C24DF;
+}
+
+.about {
+  height: 750px;
+}
+
+.sectionhead {
+  text-transform: uppercase;
+}
+.sectionhead p {
+  font-size: 12px;
+  line-height: 1;
+  padding-bottom: 16px;
+}
+
+.about-descr {
+  border-radius: 50px;
+  padding: 30px;
+  width: 65%;
+  -webkit-box-shadow: 4px 4px 50px 10px rgba(118, 118, 118, 0.2);
+  box-shadow: 4px 4px 50px 10px rgba(118, 118, 118, 0.2);
+}
