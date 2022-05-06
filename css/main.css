@@ -161,6 +161,10 @@ nav ul {
   margin-bottom: 0px;
 }
 
+.projects {
+  padding-bottom: 150px;
+}
+
 .project {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -195,4 +199,63 @@ nav ul {
 .project .descr-project li {
   margin: 8px 0;
   line-height: 1.3;
+}
+
+.contacts-wrapper {
+  margin: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-shadow: 4px 4px 50px 10px rgba(118, 118, 118, 0.2);
+  box-shadow: 4px 4px 50px 10px rgba(118, 118, 118, 0.2);
+  border-radius: 50px;
+  padding: 30px;
+}
+.contacts-wrapper .contact-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-shadow: 4px 4px 50px 10px rgba(118, 118, 118, 0.2);
+  box-shadow: 4px 4px 50px 10px rgba(118, 118, 118, 0.2);
+  border-radius: 50px;
+  padding: 30px;
+  width: 30%;
+  margin: 88px 28px;
+}
+.contacts-wrapper .contact-card img {
+  border-radius: 10px;
+  width: 68px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }

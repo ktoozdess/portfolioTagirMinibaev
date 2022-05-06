@@ -128,7 +128,9 @@ nav{
         margin-bottom: 0px;
     }
 }
-
+.projects{
+    padding-bottom: 150px;
+}
 .project{
     display: flex;
     flex-direction: row;
@@ -152,4 +154,31 @@ nav{
             line-height: 1.3;
         }
     }
+}
+.contacts-wrapper{
+    margin: 50px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    @include shadowblock();
+    .contact-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        @include shadowblock();
+        width: 30%;
+        margin: 88px 28px;
+        img{
+            border-radius: 10px;
+            width: 68px;
+        }
+    }
+}
+footer{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
 }
